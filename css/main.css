@@ -1,0 +1,44 @@
+html, body {
+    font-size: 12px;
+}
+
+a {
+    color: black;
+}
+
+main {
+    width: 100%;
+    max-width: 2560px;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.headline, .client, .admin {
+    text-align: center;
+}
+
+.client {
+    margin-bottom: 30px;
+}
+
+.headline {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.client__headline,
+.admin__headline {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.download-button {
+    width: 150px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: transparent;
+}
