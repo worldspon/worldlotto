@@ -42,3 +42,35 @@ main {
     font-weight: 600;
     background-color: transparent;
 }
+.mobile-download-guide {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.guide-wrap:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.guide-wrap .guide-image-box:last-child {
+    float: right;
+}
+
+.guide-image-box {
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+}
+
+.guide-image{
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.guide-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    word-break: keep-all;
+}
