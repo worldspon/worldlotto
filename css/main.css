@@ -6,12 +6,6 @@ a {
     color: black;
 }
 
-h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
 main {
     width: 100%;
     max-width: 2560px;
@@ -48,10 +42,24 @@ main {
     font-weight: 600;
     background-color: transparent;
 }
+
 .mobile-download-guide {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+}
+
+.mobile__title {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    cursor: pointer;
+    background-image: url('../image/arrow.png');
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-position: center right;
 }
 
 .guide-wrap:not(:last-child) {
